@@ -15,6 +15,10 @@ public class Larga extends Arma implements Comparable<Larga>  {
         this.tieneSello = tieneSello;
         this.policia = policia;
     }
+    // Método para obtener el nivel del arma
+    public int getNivelArma() {
+        return nivelArma;
+    }
 
     @Override
     public int compareTo(Larga otra) {
